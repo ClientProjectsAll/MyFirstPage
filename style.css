@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Profile logo */
+.profile-image {
+  width: 140px;
+  height: 130px;
+  margin: -21px auto;
+  background: RED;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-bottom: -70px;
+  position: relative;
+  padding: 7px 25px;
+  overflow: hidden;
+  border-bottom-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+}
+/* profile logo img tag */
+.profile-image img {
+  position: absolute;
+  width: 90px;
+  height: 90%;
+}
+/* profile box */
+.profile {
+  width: 500px;
+  height: 450px;
+  background: black;
+  color: white;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding: 40px;
+  border-radius: 20px;
+}
+/* Profile Heading */
+.profile h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: verdana;
+  padding-top: 30px;
+}
+/* Profile h3 First Tag */
+.profile h3 {
+  font-family: sans-serif;
+  padding-top: 20px;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+}
+/* Profile span tag class UserName */
+.profile span.username,
+.profile span.fathername,
+.profile span.education,
+.profile span.phonenumber,
+.profile span.email,
+.profile span.address {
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  font-family: sans-serif;
+}
